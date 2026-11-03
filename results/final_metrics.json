@@ -1,0 +1,214 @@
+{
+  "stage": "FINAL RESERVED TEST \u2014 no tuning after this evaluation",
+  "python_version": "3.12.14",
+  "dataset_sha256": "b703a9ac69f11e64ce8c223c0a40de4d2e9d769f7fb20be5f8f2e8a619893d83",
+  "model_sha256": "678e29d32f17273846b8b6133fd779a8bae6ef70f38bb90bfa23a0124743a206",
+  "total_rows": 1728,
+  "development_size": 1382,
+  "selection_train_size": 1036,
+  "validation_size": 346,
+  "test_size": 346,
+  "class_counts": {
+    "unacc": 1210,
+    "acc": 384,
+    "vgood": 65,
+    "good": 69
+  },
+  "selected_parameters": {
+    "max_depth": 5,
+    "min_leaf": 1
+  },
+  "learned_rule_count": 156,
+  "max_rule_conditions": 5,
+  "fallback_rule_count": 0,
+  "test_fallback_hits": 0,
+  "majority_baseline": {
+    "accuracy": 0.6994219653179191,
+    "macro_f1": 0.20578231292517007,
+    "balanced_accuracy": 0.25,
+    "per_class": {
+      "unacc": {
+        "precision": 0.6994219653179191,
+        "recall": 1.0,
+        "f1": 0.8231292517006803,
+        "support": 242
+      },
+      "acc": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 77
+      },
+      "good": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 14
+      },
+      "vgood": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 13
+      }
+    },
+    "labels": [
+      "unacc",
+      "acc",
+      "good",
+      "vgood"
+    ],
+    "confusion_matrix_rows_actual_columns_predicted": [
+      [
+        242,
+        0,
+        0,
+        0
+      ],
+      [
+        77,
+        0,
+        0,
+        0
+      ],
+      [
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        13,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "manual_rules": {
+    "accuracy": 0.8265895953757225,
+    "macro_f1": 0.5825738131903648,
+    "balanced_accuracy": 0.6134320225229316,
+    "per_class": {
+      "unacc": {
+        "precision": 1.0,
+        "recall": 0.8388429752066116,
+        "f1": 0.9123595505617977,
+        "support": 242
+      },
+      "acc": {
+        "precision": 0.6166666666666667,
+        "recall": 0.961038961038961,
+        "f1": 0.7512690355329948,
+        "support": 77
+      },
+      "good": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1": 0.4,
+        "support": 14
+      },
+      "vgood": {
+        "precision": 1.0,
+        "recall": 0.15384615384615385,
+        "f1": 0.2666666666666667,
+        "support": 13
+      }
+    },
+    "labels": [
+      "unacc",
+      "acc",
+      "good",
+      "vgood"
+    ],
+    "confusion_matrix_rows_actual_columns_predicted": [
+      [
+        203,
+        38,
+        1,
+        0
+      ],
+      [
+        0,
+        74,
+        3,
+        0
+      ],
+      [
+        0,
+        7,
+        7,
+        0
+      ],
+      [
+        0,
+        1,
+        10,
+        2
+      ]
+    ]
+  },
+  "learned_rules": {
+    "accuracy": 0.9248554913294798,
+    "macro_f1": 0.8475591267434809,
+    "balanced_accuracy": 0.843724457360821,
+    "per_class": {
+      "unacc": {
+        "precision": 0.9588477366255144,
+        "recall": 0.9628099173553719,
+        "f1": 0.9608247422680413,
+        "support": 242
+      },
+      "acc": {
+        "precision": 0.868421052631579,
+        "recall": 0.8571428571428571,
+        "f1": 0.8627450980392157,
+        "support": 77
+      },
+      "good": {
+        "precision": 0.6875,
+        "recall": 0.7857142857142857,
+        "f1": 0.7333333333333334,
+        "support": 14
+      },
+      "vgood": {
+        "precision": 0.9090909090909091,
+        "recall": 0.7692307692307693,
+        "f1": 0.8333333333333333,
+        "support": 13
+      }
+    },
+    "labels": [
+      "unacc",
+      "acc",
+      "good",
+      "vgood"
+    ],
+    "confusion_matrix_rows_actual_columns_predicted": [
+      [
+        233,
+        8,
+        1,
+        0
+      ],
+      [
+        8,
+        66,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        11,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        10
+      ]
+    ]
+  }
+}

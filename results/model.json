@@ -1,0 +1,4754 @@
+{
+  "algorithm": "Categorical ID3 exported as mutually exclusive IF\u2013THEN rules",
+  "max_depth": 5,
+  "min_leaf": 1,
+  "dataset_sha256": "b703a9ac69f11e64ce8c223c0a40de4d2e9d769f7fb20be5f8f2e8a619893d83",
+  "trained_on": "development indices only",
+  "rules": [
+    {
+      "id": "L001",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "2"
+        ]
+      ],
+      "label": "unacc",
+      "support": 156,
+      "counts": {
+        "unacc": 156
+      },
+      "fallback": false
+    },
+    {
+      "id": "L002",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "high"
+        ]
+      ],
+      "label": "acc",
+      "support": 8,
+      "counts": {
+        "acc": 8
+      },
+      "fallback": false
+    },
+    {
+      "id": "L003",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "low"
+        ]
+      ],
+      "label": "acc",
+      "support": 8,
+      "counts": {
+        "acc": 8
+      },
+      "fallback": false
+    },
+    {
+      "id": "L004",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 12,
+      "counts": {
+        "acc": 12
+      },
+      "fallback": false
+    },
+    {
+      "id": "L005",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "vhigh"
+        ]
+      ],
+      "label": "unacc",
+      "support": 9,
+      "counts": {
+        "unacc": 9
+      },
+      "fallback": false
+    },
+    {
+      "id": "L006",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "vgood",
+      "support": 4,
+      "counts": {
+        "vgood": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L007",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "acc": 2,
+        "vgood": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L008",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L009",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "vgood",
+      "support": 4,
+      "counts": {
+        "vgood": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L010",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "good",
+      "support": 4,
+      "counts": {
+        "good": 2,
+        "vgood": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L011",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "good",
+      "support": 4,
+      "counts": {
+        "good": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L012",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "vgood",
+      "support": 4,
+      "counts": {
+        "vgood": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L013",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "good",
+      "support": 3,
+      "counts": {
+        "good": 2,
+        "vgood": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L014",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "good",
+      "support": 2,
+      "counts": {
+        "good": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L015",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "vhigh"
+        ]
+      ],
+      "label": "acc",
+      "support": 10,
+      "counts": {
+        "acc": 10
+      },
+      "fallback": false
+    },
+    {
+      "id": "L016",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "high"
+        ]
+      ],
+      "label": "acc",
+      "support": 10,
+      "counts": {
+        "acc": 10
+      },
+      "fallback": false
+    },
+    {
+      "id": "L017",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "vgood",
+      "support": 2,
+      "counts": {
+        "vgood": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L018",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "good",
+      "support": 2,
+      "counts": {
+        "good": 1,
+        "vgood": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L019",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "good",
+      "support": 3,
+      "counts": {
+        "good": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L020",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "vgood",
+      "support": 1,
+      "counts": {
+        "vgood": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L021",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 1,
+        "vgood": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L022",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L023",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "vhigh"
+        ]
+      ],
+      "label": "acc",
+      "support": 10,
+      "counts": {
+        "acc": 10
+      },
+      "fallback": false
+    },
+    {
+      "id": "L024",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "high"
+        ]
+      ],
+      "label": "unacc",
+      "support": 11,
+      "counts": {
+        "unacc": 11
+      },
+      "fallback": false
+    },
+    {
+      "id": "L025",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "low"
+        ]
+      ],
+      "label": "acc",
+      "support": 10,
+      "counts": {
+        "acc": 10
+      },
+      "fallback": false
+    },
+    {
+      "id": "L026",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 9,
+      "counts": {
+        "acc": 9
+      },
+      "fallback": false
+    },
+    {
+      "id": "L027",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "vhigh"
+        ]
+      ],
+      "label": "unacc",
+      "support": 8,
+      "counts": {
+        "unacc": 8
+      },
+      "fallback": false
+    },
+    {
+      "id": "L028",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          2,
+          "2"
+        ]
+      ],
+      "label": "unacc",
+      "support": 2,
+      "counts": {
+        "unacc": 1,
+        "acc": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L029",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          2,
+          "3"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L030",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          2,
+          "4"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L031",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          2,
+          "5more"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L032",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          2,
+          "2"
+        ]
+      ],
+      "label": "unacc",
+      "support": 2,
+      "counts": {
+        "unacc": 1,
+        "acc": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L033",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          2,
+          "3"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L034",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          2,
+          "4"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L035",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          2,
+          "5more"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L036",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          2,
+          "2"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "unacc": 1,
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L037",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          2,
+          "3"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L038",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          2,
+          "4"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L039",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          2,
+          "5more"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L040",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          1,
+          "vhigh"
+        ]
+      ],
+      "label": "unacc",
+      "support": 9,
+      "counts": {
+        "unacc": 9
+      },
+      "fallback": false
+    },
+    {
+      "id": "L041",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "vgood",
+      "support": 4,
+      "counts": {
+        "vgood": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L042",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "vgood",
+      "support": 3,
+      "counts": {
+        "acc": 1,
+        "vgood": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L043",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L044",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "vgood",
+      "support": 3,
+      "counts": {
+        "vgood": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L045",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "vgood",
+      "support": 4,
+      "counts": {
+        "good": 1,
+        "vgood": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L046",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 2,
+      "counts": {
+        "unacc": 1,
+        "good": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L047",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "vgood",
+      "support": 3,
+      "counts": {
+        "vgood": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L048",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "vgood",
+      "support": 4,
+      "counts": {
+        "good": 1,
+        "vgood": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L049",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "good",
+      "support": 2,
+      "counts": {
+        "good": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L050",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          2,
+          "2"
+        ]
+      ],
+      "label": "unacc",
+      "support": 2,
+      "counts": {
+        "unacc": 1,
+        "acc": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L051",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          2,
+          "3"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L052",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          2,
+          "4"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L053",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          2,
+          "5more"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L054",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          2,
+          "2"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "unacc": 1,
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L055",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          2,
+          "3"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L056",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          2,
+          "4"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L057",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          2,
+          "5more"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L058",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "vgood",
+      "support": 3,
+      "counts": {
+        "vgood": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L059",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "vgood",
+      "support": 4,
+      "counts": {
+        "good": 1,
+        "vgood": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L060",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "good",
+      "support": 4,
+      "counts": {
+        "unacc": 1,
+        "good": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L061",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "vgood",
+      "support": 3,
+      "counts": {
+        "vgood": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L062",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "vgood",
+      "support": 3,
+      "counts": {
+        "vgood": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L063",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "unacc": 1,
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L064",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "vhigh"
+        ]
+      ],
+      "label": "acc",
+      "support": 8,
+      "counts": {
+        "acc": 8
+      },
+      "fallback": false
+    },
+    {
+      "id": "L065",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "high"
+        ]
+      ],
+      "label": "unacc",
+      "support": 11,
+      "counts": {
+        "unacc": 11
+      },
+      "fallback": false
+    },
+    {
+      "id": "L066",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          2,
+          "2"
+        ]
+      ],
+      "label": "unacc",
+      "support": 2,
+      "counts": {
+        "unacc": 1,
+        "acc": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L067",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          2,
+          "3"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L068",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          2,
+          "4"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L069",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          2,
+          "5more"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L070",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          2,
+          "2"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "unacc": 1,
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L071",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          2,
+          "3"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L072",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          2,
+          "4"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L073",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          2,
+          "5more"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L074",
+      "conditions": [
+        [
+          5,
+          "high"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "vhigh"
+        ]
+      ],
+      "label": "unacc",
+      "support": 10,
+      "counts": {
+        "unacc": 10
+      },
+      "fallback": false
+    },
+    {
+      "id": "L075",
+      "conditions": [
+        [
+          5,
+          "low"
+        ]
+      ],
+      "label": "unacc",
+      "support": 465,
+      "counts": {
+        "unacc": 465
+      },
+      "fallback": false
+    },
+    {
+      "id": "L076",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "2"
+        ]
+      ],
+      "label": "unacc",
+      "support": 154,
+      "counts": {
+        "unacc": 154
+      },
+      "fallback": false
+    },
+    {
+      "id": "L077",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "big"
+        ],
+        [
+          1,
+          "high"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L078",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "big"
+        ],
+        [
+          1,
+          "low"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "acc": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L079",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "big"
+        ],
+        [
+          1,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L080",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "big"
+        ],
+        [
+          1,
+          "vhigh"
+        ]
+      ],
+      "label": "unacc",
+      "support": 3,
+      "counts": {
+        "unacc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L081",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "med"
+        ],
+        [
+          2,
+          "2"
+        ]
+      ],
+      "label": "unacc",
+      "support": 3,
+      "counts": {
+        "unacc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L082",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "med"
+        ],
+        [
+          2,
+          "3"
+        ]
+      ],
+      "label": "unacc",
+      "support": 4,
+      "counts": {
+        "unacc": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L083",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "med"
+        ],
+        [
+          2,
+          "4"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "unacc": 1,
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L084",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "med"
+        ],
+        [
+          2,
+          "5more"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L085",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 13,
+      "counts": {
+        "unacc": 13
+      },
+      "fallback": false
+    },
+    {
+      "id": "L086",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "high"
+        ]
+      ],
+      "label": "acc",
+      "support": 12,
+      "counts": {
+        "acc": 12
+      },
+      "fallback": false
+    },
+    {
+      "id": "L087",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "good",
+      "support": 4,
+      "counts": {
+        "good": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L088",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 2,
+        "good": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L089",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L090",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "good",
+      "support": 4,
+      "counts": {
+        "good": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L091",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "good",
+      "support": 3,
+      "counts": {
+        "acc": 1,
+        "good": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L092",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "acc": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L093",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "acc": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L094",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "unacc",
+      "support": 3,
+      "counts": {
+        "unacc": 2,
+        "acc": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L095",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 3,
+      "counts": {
+        "unacc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L096",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L097",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "unacc",
+      "support": 3,
+      "counts": {
+        "unacc": 2,
+        "acc": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L098",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 3,
+      "counts": {
+        "unacc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L099",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "good",
+      "support": 3,
+      "counts": {
+        "good": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L100",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "good",
+      "support": 3,
+      "counts": {
+        "acc": 1,
+        "good": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L101",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "acc": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L102",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 9,
+      "counts": {
+        "acc": 9
+      },
+      "fallback": false
+    },
+    {
+      "id": "L103",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L104",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "unacc",
+      "support": 2,
+      "counts": {
+        "unacc": 1,
+        "acc": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L105",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 3,
+      "counts": {
+        "unacc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L106",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "high"
+        ]
+      ],
+      "label": "unacc",
+      "support": 9,
+      "counts": {
+        "unacc": 9
+      },
+      "fallback": false
+    },
+    {
+      "id": "L107",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "acc": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L108",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "unacc": 1,
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L109",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 3,
+      "counts": {
+        "unacc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L110",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L111",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "unacc": 1,
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L112",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 3,
+      "counts": {
+        "unacc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L113",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "4"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "vhigh"
+        ]
+      ],
+      "label": "unacc",
+      "support": 11,
+      "counts": {
+        "unacc": 11
+      },
+      "fallback": false
+    },
+    {
+      "id": "L114",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "big"
+        ],
+        [
+          1,
+          "high"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "acc": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L115",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "big"
+        ],
+        [
+          1,
+          "low"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "acc": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L116",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "big"
+        ],
+        [
+          1,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L117",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "big"
+        ],
+        [
+          1,
+          "vhigh"
+        ]
+      ],
+      "label": "unacc",
+      "support": 3,
+      "counts": {
+        "unacc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L118",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "med"
+        ],
+        [
+          2,
+          "2"
+        ]
+      ],
+      "label": "unacc",
+      "support": 3,
+      "counts": {
+        "unacc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L119",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "med"
+        ],
+        [
+          2,
+          "3"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "unacc": 1,
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L120",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "med"
+        ],
+        [
+          2,
+          "4"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "unacc": 1,
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L121",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "med"
+        ],
+        [
+          2,
+          "5more"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L122",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "high"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 11,
+      "counts": {
+        "unacc": 11
+      },
+      "fallback": false
+    },
+    {
+      "id": "L123",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          2,
+          "2"
+        ]
+      ],
+      "label": "unacc",
+      "support": 2,
+      "counts": {
+        "unacc": 1,
+        "acc": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L124",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          2,
+          "3"
+        ]
+      ],
+      "label": "acc",
+      "support": 1,
+      "counts": {
+        "acc": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L125",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          2,
+          "4"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L126",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          2,
+          "5more"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L127",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "good",
+      "support": 2,
+      "counts": {
+        "good": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L128",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "good",
+      "support": 3,
+      "counts": {
+        "acc": 1,
+        "good": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L129",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "unacc": 1,
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L130",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "good",
+      "support": 3,
+      "counts": {
+        "good": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L131",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "good",
+      "support": 3,
+      "counts": {
+        "acc": 1,
+        "good": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L132",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L133",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "acc": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L134",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "unacc": 1,
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L135",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "low"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 4,
+      "counts": {
+        "unacc": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L136",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L137",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 2,
+      "counts": {
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L138",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "high"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 2,
+      "counts": {
+        "unacc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L139",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "good",
+      "support": 4,
+      "counts": {
+        "good": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L140",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "good",
+      "support": 4,
+      "counts": {
+        "acc": 1,
+        "good": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L141",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "acc",
+      "support": 4,
+      "counts": {
+        "unacc": 1,
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L142",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          2,
+          "2"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "unacc": 1,
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L143",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          2,
+          "3"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L144",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          2,
+          "4"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L145",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          2,
+          "5more"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L146",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L147",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "unacc": 1,
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L148",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "med"
+        ],
+        [
+          1,
+          "vhigh"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 1,
+      "counts": {
+        "unacc": 1
+      },
+      "fallback": false
+    },
+    {
+      "id": "L149",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "high"
+        ]
+      ],
+      "label": "unacc",
+      "support": 10,
+      "counts": {
+        "unacc": 10
+      },
+      "fallback": false
+    },
+    {
+      "id": "L150",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L151",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "unacc": 1,
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L152",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "low"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 4,
+      "counts": {
+        "unacc": 4
+      },
+      "fallback": false
+    },
+    {
+      "id": "L153",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "big"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "acc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L154",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "med"
+        ]
+      ],
+      "label": "acc",
+      "support": 3,
+      "counts": {
+        "unacc": 1,
+        "acc": 2
+      },
+      "fallback": false
+    },
+    {
+      "id": "L155",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "med"
+        ],
+        [
+          4,
+          "small"
+        ]
+      ],
+      "label": "unacc",
+      "support": 3,
+      "counts": {
+        "unacc": 3
+      },
+      "fallback": false
+    },
+    {
+      "id": "L156",
+      "conditions": [
+        [
+          5,
+          "med"
+        ],
+        [
+          3,
+          "more"
+        ],
+        [
+          0,
+          "vhigh"
+        ],
+        [
+          1,
+          "vhigh"
+        ]
+      ],
+      "label": "unacc",
+      "support": 8,
+      "counts": {
+        "unacc": 8
+      },
+      "fallback": false
+    }
+  ]
+}
